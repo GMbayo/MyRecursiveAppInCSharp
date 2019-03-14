@@ -41,6 +41,7 @@
             this.btn_send.TabIndex = 0;
             this.btn_send.Text = "Calculer";
             this.btn_send.UseVisualStyleBackColor = true;
+            this.btn_send.Click += new System.EventHandler(this.btn_send_Click);
             // 
             // lblResult
             // 
